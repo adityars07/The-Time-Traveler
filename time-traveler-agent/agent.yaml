@@ -1,0 +1,11 @@
+spec_version: "0.1.0"
+name: time-traveler-agent
+version: 1.0.0
+description: "Automates git bisect by autonomously writing reproduction scripts and identifying the exact breaking commit."
+model:
+  preferred: claude-3-5-sonnet-20241022
+skills:
+  - git-bisect
+tags:
+  - hackathon
+  - time-travel
